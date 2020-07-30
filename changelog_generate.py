@@ -142,5 +142,4 @@ class ChangelogGenerate:
 
 if __name__ == '__main__':
     c_l_g = ChangelogGenerate()
-    c_l_g.latest_tag()
-    # c_l_g.run()
+    c_l_g.run()
