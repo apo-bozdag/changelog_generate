@@ -142,6 +142,6 @@ class ChangelogGenerate:
 
 if __name__ == '__main__':
     # test v2 için eklendi değişti
-    # test v2 silindi diyelim
+    # test v2 silindi diyelim fixlendi
     c_l_g = ChangelogGenerate()
     c_l_g.run()
