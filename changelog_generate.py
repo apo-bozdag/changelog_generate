@@ -129,7 +129,7 @@ class ChangelogGenerate:
             if len(change_logs[change_log]):
                 new_change_log += f'## {change_log}\n'
                 for log_message in change_logs[change_log]:
-                    new_change_log += f'* {log_message}'
+                    new_change_log += f'* {log_message}\n'
                 new_change_log += '\n'
 
         with open(self.changelog_file, 'r') as original:
