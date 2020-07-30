@@ -44,6 +44,8 @@ class ChangelogGenerate:
     def latest_tag(self):
         stream = os.popen("git describe --long")
         g_tag = stream.read()
+        if g_tag in 'fatal':
+            self.create_git_tag()
         return g_tag.split('-')[0] if g_tag != '' and 'version/bin' not in g_tag else self.get_version()
 
     def create_git_tag(self):
@@ -140,4 +142,5 @@ class ChangelogGenerate:
 
 if __name__ == '__main__':
     c_l_g = ChangelogGenerate()
-    c_l_g.run()
+    c_l_g.latest_tag()
+    # c_l_g.run()
