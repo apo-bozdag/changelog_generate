@@ -15,5 +15,3 @@ It is created in the tag according to the version you choose while creating the 
 
 * `python changelog_generate.py`
 * `git push --tags`
-
-Finally, don't forget to push your changelog.md & config.ini files.

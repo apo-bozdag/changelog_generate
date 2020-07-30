@@ -1,3 +1,9 @@
+# Version 0.0.3 (2020-07-30) 
+
+## fixed
+* run function \n added ([a0ba95](https://github.com/apo-bozdag/changelog_generate/commit/a0ba958cd7f8e3884a43c80d8af7ee604f50d59a))
+
+
 # Version 0.0.2 (2020-07-30) 
 
 ## added
